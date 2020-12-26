@@ -36,7 +36,9 @@ var nizCmd = &cobra.Command{
 		if err != nil {
 			log.Fatalf("contentFile err = %v", err)
 		}
-		//out := intergal.work(ctF)
+		log.Printf("val = %v", ' ')
+		out := intergal.Work(ctF)
+		log.Printf("out = %v", out)
 		//cfF,err := ioutil.ReadFile(configFile)
 		//if err != nil {
 		//	log.Fatalf("configFile err = %v", err)

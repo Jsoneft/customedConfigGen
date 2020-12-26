@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60dae1a2-ea27-4b22-8c89-2b5f9676a665" name="Default Changelist" comment="readFile tested">
+    <list default="true" id="60dae1a2-ea27-4b22-8c89-2b5f9676a665" name="Default Changelist" comment="bref temp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmd/NiZ.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/NiZ.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/intergal/proProcess.go" beforeDir="false" afterPath="$PROJECT_DIR$/intergal/proProcess.go" afterDir="false" />
@@ -76,7 +76,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="readFile tested" />
-    <option name="LAST_COMMIT_MESSAGE" value="readFile tested" />
+    <MESSAGE value="bref temp" />
+    <option name="LAST_COMMIT_MESSAGE" value="bref temp" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -86,8 +87,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/cmd/NiZ.go</url>
-          <line>34</line>
-          <option name="timeStamp" value="3" />
+          <line>35</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
