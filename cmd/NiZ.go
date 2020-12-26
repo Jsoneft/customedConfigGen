@@ -1,6 +1,7 @@
 package cmd
 
 import (
+	"github.com/Jsoneft/customedConfigGen/intergal"
 	"github.com/spf13/cobra"
 	"io/ioutil"
 	"log"
@@ -35,7 +36,7 @@ var nizCmd = &cobra.Command{
 		if err != nil {
 			log.Fatalf("contentFile err = %v", err)
 		}
-
+		//out := intergal.work(ctF)
 		//cfF,err := ioutil.ReadFile(configFile)
 		//if err != nil {
 		//	log.Fatalf("configFile err = %v", err)

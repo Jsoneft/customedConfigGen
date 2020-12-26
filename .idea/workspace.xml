@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60dae1a2-ea27-4b22-8c89-2b5f9676a665" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/customedConfigGen.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmd/root.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    <list default="true" id="60dae1a2-ea27-4b22-8c89-2b5f9676a665" name="Default Changelist" comment="readFile tested">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmd/NiZ.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/NiZ.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/intergal/proProcess.go" beforeDir="false" afterPath="$PROJECT_DIR$/intergal/proProcess.go" afterDir="false" />
     </list>
@@ -69,6 +61,22 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="readFile tested" />
+    <option name="LAST_COMMIT_MESSAGE" value="readFile tested" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
