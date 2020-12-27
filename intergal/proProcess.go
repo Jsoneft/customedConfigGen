@@ -54,8 +54,8 @@ func getF() {
 		index = append(index, i)
 	}
 	// 刻录
-	for i, val := range index {
-		if i <= 122 && i >= 97 {
+	for _, val := range index {
+		if val <= 122 && val >= 97 {
 			F[val] = string(rune(val - ('a' - 'A')))
 		} else {
 			F[val] = string(rune(val))
@@ -88,9 +88,35 @@ func getF() {
 	}
 	// 刻录
 	for _, val := range index {
-		F[val] = string(rune(val))
 		needShift[val] = true
+		if val <= 'Z' && val >= 'A' {
+			F[val] = string(rune(val))
+		}
 	}
+
+	F[int('~')] = "`"
+	F[int('!')] = "1"
+	F[int('@')] = "2"
+	F[int('#')] = "3"
+	F[int('$')] = "4"
+	F[int('%')] = "5"
+	F[int('^')] = "6"
+	F[int('&')] = "7"
+	F[int('*')] = "8"
+	F[int('(')] = "9"
+	F[int(')')] = "0"
+	F[int('_')] = "-"
+	F[int('=')] = "+"
+
+	F[int('<')] = ","
+	F[int('>')] = "."
+	F[int('?')] = "/"
+	F[int(':')] = ";"
+	F[int('"')] = "'"
+	F[int('{')] = "["
+	F[int('}')] = "]"
+	F[int('|')] = "\\"
+
 	// special
 	F[int(' ')] = "SPACEBAR"
 	F[10] = "ENTER"

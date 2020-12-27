@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="60dae1a2-ea27-4b22-8c89-2b5f9676a665" name="Default Changelist" comment="finished trans">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/NiZ.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/NiZ.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/intergal/proProcess.go" beforeDir="false" afterPath="$PROJECT_DIR$/intergal/proProcess.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +38,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RunManager">
@@ -93,19 +93,20 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/intergal/proProcess.go</url>
-          <line>124</line>
-          <option name="timeStamp" value="5" />
+          <line>159</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/intergal/proProcess.go</url>
-          <line>117</line>
-          <option name="timeStamp" value="7" />
+          <line>58</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="GoApplicationRunConfiguration">
         <watch expression="b" language="go" />
+        <watch expression="F" language="go" />
       </configuration>
       <inline-watch fileUrl="file://$PROJECT_DIR$/cmd/NiZ.go" line="39">
         <watch expression="out" language="go" />
